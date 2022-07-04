@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Y3o-Bu-qU4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="2E5-F8-R0V"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="5ib-Yh-YnC"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="5vN-yR-hgk"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="72o-BD-MHK"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="99f-1t-r4J"/>
+                            <constraint firstAttribute="bottom" secondItem="Y3o-Bu-qU4" secondAttribute="bottom" constant="20" symbolic="YES" id="BvP-TF-umO"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="DfC-9B-X70"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" symbolic="YES" id="L64-Qg-rL0"/>
+                            <constraint firstAttribute="bottom" secondItem="Y3o-Bu-qU4" secondAttribute="bottom" id="hb6-AL-MNX"/>
+                            <constraint firstAttribute="bottom" secondItem="Y3o-Bu-qU4" secondAttribute="bottom" id="mU0-xV-V8b"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="rct-eF-TE6"/>
+                            <constraint firstItem="Y3o-Bu-qU4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" symbolic="YES" id="xQF-fd-cDj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="360" height="640"/>
+    </resources>
+</document>
